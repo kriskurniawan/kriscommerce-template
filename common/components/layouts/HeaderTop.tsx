@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeaderTop() {
     return (
-        <div className="w-full justify-between flex p-5 m-auto">
+        <div className="justify-between flex p-5 m-auto">
             <div className="text-zinc-800 text-sm font-normal font-['Poppins']">Need help? Call us: (+98) 0234 456 789</div>
             <div className="justify-center items-center gap-9 flex">
                 <div className="justify-center items-center gap-5 flex">

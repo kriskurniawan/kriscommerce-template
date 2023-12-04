@@ -8,7 +8,7 @@ import Slider from '@/common/components/layouts/Slider'
 
 export default function Home() {
   return (
-    <main className="max-w-full bg-white">
+    <main className="bg-white">
       <HeaderTop />
       <HeaderBottom />
       <Navigation />
