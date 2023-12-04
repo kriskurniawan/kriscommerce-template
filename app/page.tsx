@@ -7,7 +7,7 @@ import Slider from '@/common/components/layouts/Slider'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-7">
+    <main className="max-w-full bg-white">
       <HeaderTop />
       <HeaderBottom />
       <Navigation />

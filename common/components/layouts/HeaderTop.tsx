@@ -2,8 +2,8 @@ import React from "react";
 
 export default function HeaderTop() {
     return (
-        <div className="min-w-full h-6 justify-center items-center gap-[754px] inline-flex mb-5">
-            <div className="NeedHelpCallUs980234456789 text-zinc-800 text-sm font-normal font-['Poppins']">Need help? Call us: (+98) 0234 456 789</div>
+        <div className="w-full justify-between flex p-5 m-auto">
+            <div className="text-zinc-800 text-sm font-normal font-['Poppins']">Need help? Call us: (+98) 0234 456 789</div>
             <div className="justify-center items-center gap-9 flex">
                 <div className="justify-center items-center gap-5 flex">
                     <div className="w-6 h-6 justify-center items-center flex">

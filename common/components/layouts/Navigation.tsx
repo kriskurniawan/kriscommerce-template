@@ -1,6 +1,6 @@
 export default function Navigation() {
     return (
-        <div className="min-w-full h-16 bg-zinc-100 items-center gap-24 inline-flex">
+        <div className="max-w-full h-16 bg-zinc-100 flex">
             <div className="ml-16 w-56 h-16 bg-amber-500 justify-center items-center gap-4 flex">
                 <div className="text-white text-base font-medium font-['Poppins']">Browse categories</div>
                 <div className="w-6 h-6 justify-center items-center flex">
@@ -11,8 +11,8 @@ export default function Navigation() {
                     </div>
                 </div>
             </div>
-            <div className="justify-center items-center gap-80 flex">
-                <div className="justify-center items-center gap-7 flex">
+            <div className="w-full justify-between m-auto flex">
+                <div className="ml-5 justify-center items-center gap-7 flex">
                     <div className="justify-center items-center gap-4 flex">
                         <div className="text-neutral-700 text-base font-medium font-['Poppins']">Home</div>
                         <div className="w-6 h-6 justify-center items-center flex">
@@ -50,7 +50,7 @@ export default function Navigation() {
                         <div className="text-neutral-700 text-base font-medium font-['Poppins']">About us</div>
                     </div>
                 </div>
-                <div className="text-sky-900 text-base font-bold font-['Poppins']">30 Days Free Return</div>
+                <div className="text-sky-900 text-base font-bold font-['Poppins'] mr-16">30 Days Free Return</div>
             </div>
         </div>
     )
