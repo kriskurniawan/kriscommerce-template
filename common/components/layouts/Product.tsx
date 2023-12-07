@@ -1,7 +1,7 @@
 export default function Product() {
     return (
         <div className="container mx-auto">
-            <div className="w-full flex flex-wrap justify-center m-5 gap-5">
+            <div className="w-full flex flex-wrap justify-center mb-5 gap-5">
                 <div className="w-80 h-80 rounded-2xl border border-zinc-400 justify-center gap-9 flex flex-wrap relative">
                     <img className="w-48 h-44 mt-7 rounded-lg" src="https://source.unsplash.com/188x173?camera" />
                     <div className="w-7 h-7 bg-slate-300 rounded-full justify-center items-center gap-1.5 flex absolute top-10 right-7">
