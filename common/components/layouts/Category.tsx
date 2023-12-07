@@ -14,21 +14,21 @@ export default function Category() {
                 </div>
                 <div className="gap-8 flex">
                     <div className="w-96 h-36 rounded-2xl border border-neutral-400 justify-center items-center gap-11 flex m-auto">
-                        <img className="w-40 h-24" src="https://via.placeholder.com/154x94" />
+                        <img className="w-32 h-28 rounded-lg" src="https://source.unsplash.com/122x118?speaker" />
                         <div className="flex-col justify-center items-start gap-2.5 inline-flex">
                             <div className="text-cyan-800 text-2xl font-semibold font-['Poppins']">Speaker</div>
                             <div className="6Items text-cyan-800 text-lg font-medium font-['Poppins']">(6 items)</div>
                         </div>
                     </div>
                     <div className="w-96 h-36 rounded-2xl border border-neutral-400 justify-center items-center gap-11 flex m-auto">
-                        <img className="w-32 h-28" src="https://via.placeholder.com/122x118" />
+                        <img className="w-32 h-28 rounded-lg" src="https://source.unsplash.com/122x118?laptop" />
                         <div className="flex-col justify-center items-start gap-2.5 inline-flex">
                             <div className="text-cyan-800 text-xl font-semibold font-['Poppins']">Desktop & laptop</div>
                             <div className="text-cyan-800 text-lg font-medium font-['Poppins']">(6 items)</div>
                         </div>
                     </div>
                     <div className="w-96 h-36 rounded-2xl border border-neutral-400 justify-center items-center gap-11 flex m-auto">
-                        <img className="w-28 h-28" src="https://via.placeholder.com/110x119" />
+                        <img className="w-28 h-28 rounded-lg" src="https://source.unsplash.com/122x118?dslr+camera" />
                         <div className="flex-col justify-center items-start gap-2.5 inline-flex">
                             <div className="text-cyan-800 text-2xl font-semibold font-['Poppins']">DSLR camera</div>
                             <div className="text-cyan-800 text-lg font-medium font-['Poppins']">(6 items)</div>

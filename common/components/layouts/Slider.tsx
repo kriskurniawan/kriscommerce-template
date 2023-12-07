@@ -2,7 +2,7 @@ export default function Slider() {
     return (
         <div className="container mx-auto h-[420px] relative">
             <div className="py-24 ml-44 text-cyan-800 text-5xl font-bold font-['Poppins']">Canon<br/>camera</div>
-            <img className="1 w-80 h-96 left-[932px] top-[38px] absolute" src="https://via.placeholder.com/331x356" />
+            <img className="1 w-80 h-96 left-[932px] top-[38px] absolute rounded-lg" src="https://source.unsplash.com/331x356?camera" />
             <div className="left-[174px] top-[216px] absolute justify-center items-center gap-5 inline-flex">
                 <div className="w-36 h-16 bg-amber-500 rounded-2xl justify-center items-center gap-2.5 flex">
                     <div className="text-white text-base font-semibold font-['Poppins']">Shop now</div>
