@@ -5,6 +5,8 @@ import Navigation from '@/common/components/layouts/Navigation'
 import PopularProduct from '@/common/components/layouts/PopularProduct'
 import Product from '@/common/components/layouts/Product'
 import Slider from '@/common/components/layouts/Slider'
+import BannerPromotion from '@/common/components/layouts/BannerPromotion'
+import TopSeller from '@/common/components/layouts/TopSeller'
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Category />
       <PopularProduct />
       <Product />
+      <BannerPromotion />
+      <TopSeller />
     </main>
   )
 }

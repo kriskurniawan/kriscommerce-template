@@ -253,6 +253,11 @@ export default function Product() {
                     </div>
                 </div>
             </div>
+            <div className="w-20 h-5 justify-center items-center gap-2.5 flex mx-auto m-10">
+                <div className="w-5 h-5 bg-amber-500 rounded-full" />
+                <div className="w-5 h-5 rounded-full border border-zinc-400" />
+                <div className="w-5 h-5 rounded-full border border-zinc-400" />
+            </div>
         </div>
     )
 }
