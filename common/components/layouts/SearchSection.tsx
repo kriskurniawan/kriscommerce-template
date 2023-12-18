@@ -9,9 +9,9 @@ export default function SearchSection() {
                     placeholder="Search any things"
                     className="text-zinc-800 text-sm font-normal font-['Poppins'] outline-none bg-transparent w-full"
                 />
-                <Button>
+                {/* <Button>
                     <div className="text-white text-sm font-semibold font-['Poppins']">Search</div>
-                </Button>
+                </Button> */}
             </div>
         </div>
     )
