@@ -7,6 +7,8 @@ import Product from '@/common/components/layouts/Product'
 import Slider from '@/common/components/layouts/Slider'
 import BannerPromotion from '@/common/components/layouts/BannerPromotion'
 import TopSeller from '@/common/components/layouts/TopSeller'
+import Features from '@/common/components/layouts/Features'
+import Testimoni from '@/common/components/layouts/Testimoni'
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <Product />
       <BannerPromotion />
       <TopSeller />
+      <Features />
+      <Testimoni />
     </main>
   )
 }
