@@ -12,6 +12,9 @@ export default function SearchSection() {
                 {/* <Button>
                     <div className="text-white text-sm font-semibold font-['Poppins']">Search</div>
                 </Button> */}
+                <div className="w-32 h-14 bg-amber-500 rounded-2xl justify-center items-center gap-2.5 inline-flex">
+                    <div className="text-white text-sm font-semibold font-['Poppins']">Search</div>
+                </div>
             </div>
         </div>
     )
