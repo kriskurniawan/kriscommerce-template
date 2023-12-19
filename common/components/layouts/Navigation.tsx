@@ -4,7 +4,7 @@ export default function Navigation() {
     return (
         <div className="w-full h-16 bg-zinc-100 flex">
             <Link href="/categories">
-                <div className="ml-16 w-64 h-16 bg-amber-500 justify-center items-center gap-4 flex p-auto">
+                <div className="ml-16 w-52 h-16 bg-amber-500 justify-center items-center gap-4 flex p-auto">
                     <div className="text-white text-base font-medium font-['Poppins']">Browse categories</div>
                     <div className="w-6 h-6 justify-center items-center flex">
                         <div className="w-6 h-6 relative">
