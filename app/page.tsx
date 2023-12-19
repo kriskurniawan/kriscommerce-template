@@ -9,6 +9,9 @@ import BannerPromotion from '@/common/components/layouts/BannerPromotion'
 import TopSeller from '@/common/components/layouts/TopSeller'
 import Features from '@/common/components/layouts/Features'
 import Testimoni from '@/common/components/layouts/Testimoni'
+import Partner from '@/common/components/layouts/Partner'
+import News from '@/common/components/layouts/News'
+import Footer from '@/common/components/layouts/Footer'
 
 export default function Home() {
   return (
@@ -24,6 +27,9 @@ export default function Home() {
       <TopSeller />
       <Features />
       <Testimoni />
+      <Partner />
+      <News />
+      <Footer />
     </main>
   )
 }

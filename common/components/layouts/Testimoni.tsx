@@ -1,4 +1,5 @@
 import React from 'react'
+import DotSlide from '../elements/DotSlide'
 
 function Testimoni() {
     return (
@@ -43,6 +44,9 @@ function Testimoni() {
                         <div className="w-full p-4 text-sky-900 text-sm font-normal font-['Poppins']">Lorem ipsum dolor sit amet consectetur. Nec sit enim tellus faucibus bibendum ullamcorper. Phasellus tristique aenean at lorem sed scelerisque.</div>
                     </div>
                 </div>
+            </div>
+            <div className="p-5 justify-center items-center flex">
+                <DotSlide />
             </div>
         </div>
     )
