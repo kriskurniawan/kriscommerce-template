@@ -1,4 +1,6 @@
-export default function CartSection() {
+import React from 'react'
+
+const CartSection = () => {
     return (
         <div className="ml-auto w-80 h-6 items-center inline-flex">
             <div className="justify-center items-center gap-3 flex">
@@ -49,3 +51,5 @@ export default function CartSection() {
         </div>
     )
 }
+
+export default CartSection

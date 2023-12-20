@@ -1,7 +1,7 @@
 import React from 'react'
 import DotSlide from '../elements/DotSlide'
 
-function News() {
+const News = () => {
     return (
         <div className="container mx-auto">
             <div className="w-11/12 h-9 gap-96 flex flex-wrap justify-between m-auto p-10 mb-5">

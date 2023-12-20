@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FooterMenu() {
+const FooterMenu = () => {
     return (
         <div className="container mx-auto">
             <div className="flex p-10">

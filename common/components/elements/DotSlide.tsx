@@ -1,6 +1,6 @@
 import React from 'react'
 
-function DotSlide() {
+const DotSlide = () => {
     return (
         <div className="w-20 h-5 justify-center items-center gap-2.5 inline-flex">
             <div className="w-5 h-5 bg-amber-500 rounded-full" />

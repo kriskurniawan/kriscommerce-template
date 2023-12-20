@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Partner() {
+const Partner = () => {
     return (
         <div className="container mx-auto">
             <div className="felx p-7">

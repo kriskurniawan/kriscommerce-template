@@ -1,6 +1,7 @@
-import Star from "../elements/Star";
+import React from 'react'
+import Star from '../elements/Star'
 
-export default function Product() {
+const Product = () => {
     return (
         <div className="container mx-auto">
             <div className="w-full flex flex-wrap justify-center mb-5 gap-5">
@@ -151,3 +152,5 @@ export default function Product() {
         </div>
     )
 }
+
+export default Product

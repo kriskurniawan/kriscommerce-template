@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Star() {
+const Star = () => {
     return (
         <div className="w-28 h-3.5 gap-2.5 inline-flex">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

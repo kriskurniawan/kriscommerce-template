@@ -1,4 +1,6 @@
-export default function Category() {
+import React from 'react'
+
+const Category = () => {
     return (
         <div className="container mx-auto">
             <div className="flex flex-wrap pt-10 justify-center items-center">
@@ -49,3 +51,5 @@ export default function Category() {
         </div>
     )
 }
+
+export default Category

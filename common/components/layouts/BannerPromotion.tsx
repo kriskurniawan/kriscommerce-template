@@ -1,4 +1,6 @@
-export default function BannerPromotion() {
+import React from 'react'
+
+const BannerPromotion = () => {
     return (
         <div className="container mx-auto">
             <div className="flex justify-center m-10 relative">
@@ -17,3 +19,5 @@ export default function BannerPromotion() {
         </div>
     )
 }
+
+export default BannerPromotion

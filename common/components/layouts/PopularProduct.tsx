@@ -1,4 +1,6 @@
-export default function PopularProduct() {
+import React from 'react'
+
+const PopularProduct = () => {
     return (
         <div className="container mx-auto">
             <div className="w-11/12 justify-between m-auto flex flex-wrap mt-5 mb-5 p-10">
@@ -21,3 +23,5 @@ export default function PopularProduct() {
         </div>
     )
 }
+
+export default PopularProduct

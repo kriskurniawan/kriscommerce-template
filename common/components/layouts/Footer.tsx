@@ -2,7 +2,7 @@ import React from 'react'
 import Newsletter from './Newsletter'
 import FooterMenu from './FooterMenu'
 
-function Footer() {
+const Footer = () => {
     return (
         <div className="bg-sky-100">
             <Newsletter />

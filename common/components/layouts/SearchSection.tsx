@@ -1,6 +1,6 @@
-import Button from "../elements/Button";
+import React from 'react'
 
-export default function SearchSection() {
+const SearchSection = () => {
     return (
         <div className="w-96 h-14 justify-center items-center gap-20 inline-flex">
             <div className="w-96 h-14 pl-6 bg-white rounded-2xl justify-start items-center gap-2.5 flex">
@@ -19,3 +19,5 @@ export default function SearchSection() {
         </div>
     )
 }
+
+export default SearchSection

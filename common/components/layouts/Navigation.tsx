@@ -1,6 +1,7 @@
-import Link from "next/link"
+import Link from 'next/link'
+import React from 'react'
 
-export default function Navigation() {
+const Navigation = () => {
     return (
         <div className="w-full h-16 bg-zinc-100 flex">
             <Link href="/categories">
@@ -61,3 +62,5 @@ export default function Navigation() {
         </div>
     )
 }
+
+export default Navigation

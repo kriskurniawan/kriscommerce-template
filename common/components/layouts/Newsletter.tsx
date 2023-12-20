@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Newsletter() {
+const Newsletter = () => {
     return (
         <div className="container mx-auto">
             <div className="flex p-10">
