@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeaderTop = () => {
     return (
-        <div className="justify-between flex p-5 m-auto">
+        <div className="justify-between flex p-5 m-auto mr-16">
             <div className='flex justify-center items-center'>
                 <div className="text-slate-600 text-sm font-['Poppins'] hover:text-blue-600 cursor-pointer">Need help? Call us: (+98) 0234 456 789</div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const CartSection = () => {
     return (
-        <div className="ml-80 h-6 items-center flex">
+        <div className="ml-auto mr-24 h-10 flex">
             <div className="w-28 h-10 justify-center items-center gap-3 flex hover:bg-amber-600 cursor-pointer rounded-lg">
                 <div className="justify-center items-center flex">
                     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
