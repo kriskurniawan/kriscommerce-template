@@ -6,7 +6,7 @@ const HeaderTop = () => {
             <div className='flex justify-center items-center'>
                 <div className="text-slate-600 text-sm font-['Poppins'] hover:text-blue-600 cursor-pointer">Need help? Call us: (+98) 0234 456 789</div>
             </div>
-            <div className="justify-center items-center gap-9 flex">
+            <div className="justify-center items-center gap-5 flex">
                 <div className="w-32 h-10 rounded-lg justify-center items-center gap-3 flex hover:bg-slate-300 cursor-pointer">
                     <div className="justify-center items-center flex">
                         <svg className='stroke-slate-600' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
