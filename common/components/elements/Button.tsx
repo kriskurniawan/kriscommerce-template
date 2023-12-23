@@ -13,7 +13,6 @@ interface Props {
 }
 
 const Button = (props: Props) => {
-    console.log(props);
 
     return (
         <button className={`${props.className} rounded-2xl font-['Poppins']`}
