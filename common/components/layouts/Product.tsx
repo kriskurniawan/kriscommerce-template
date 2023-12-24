@@ -1,5 +1,6 @@
 import React from 'react'
 import Star from '../elements/Star'
+import DotSlide from '../elements/DotSlide'
 
 const Product = () => {
     return (
@@ -144,11 +145,7 @@ const Product = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-20 h-5 justify-center items-center gap-2.5 flex mx-auto m-10">
-                <div className="w-5 h-5 bg-amber-500 rounded-full" />
-                <div className="w-5 h-5 rounded-full border border-zinc-400" />
-                <div className="w-5 h-5 rounded-full border border-zinc-400" />
-            </div>
+            <DotSlide className="mx-auto mt-10" count={2} />
         </div>
     )
 }

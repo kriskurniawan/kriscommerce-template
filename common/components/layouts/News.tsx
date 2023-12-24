@@ -41,7 +41,7 @@ const News = () => {
                 </div>
             </div>
             <div className="p-5 justify-center items-center flex mb-5">
-                <DotSlide />
+                <DotSlide count={4} />
             </div>
         </div>
     )

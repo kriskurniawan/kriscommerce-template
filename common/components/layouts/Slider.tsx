@@ -20,13 +20,13 @@ const Slider = () => {
                 <Button
                     onClick={handleClick}
                     type="submit"
-                    className="w-36 h-16 bg-amber-500 justify-center text-white text-base font-semibold">
+                    className="w-36 h-16 bg-amber-500 justify-center text-white text-base font-semibold hover:bg-amber-600">
                     Shop Now
                 </Button>
                 <Button
                     onClick={handleView}
                     type="submit"
-                    className="w-36 h-16 rounded-2xl border border-cyan-800 text-cyan-800 text-base font-semibold">
+                    className="w-36 h-16 rounded-2xl border border-cyan-800 text-cyan-800 text-base font-semibold hover:bg-slate-200">
                     View more
                 </Button>
             </div>
@@ -34,9 +34,9 @@ const Slider = () => {
                 <div className="text-white text-xl font-semibold font-['Poppins']">only<br />$89</div>
             </div>
             <div className="left-[296px] top-[326px] absolute justify-center items-center gap-2 inline-flex">
-                <div className="w-4 h-4 bg-amber-500 rounded-full" />
-                <div className="w-4 h-4 rounded-full border border-zinc-400" />
-                <div className="w-4 h-4 rounded-full border border-zinc-400" />
+                <div className="w-4 h-4 bg-amber-500 cursor-pointer rounded-full" />
+                <div className="w-4 h-4 hover:bg-amber-500 cursor-pointer rounded-full border border-zinc-400" />
+                <div className="w-4 h-4 hover:bg-amber-500 cursor-pointer rounded-full border border-zinc-400" />
             </div>
         </div>
     )

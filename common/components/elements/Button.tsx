@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface Props {
+interface ButtonProps {
     children: React.ReactNode
     onClick?(e?: React.MouseEvent<HTMLButtonElement, MouseEvent>): void
     className?: string
@@ -12,7 +12,7 @@ interface Props {
     size?: 'sm' | 'md'
 }
 
-const Button = (props: Props) => {
+const Button = (props: ButtonProps) => {
 
     return (
         <button className={`${props.className} rounded-2xl font-['Poppins']`}

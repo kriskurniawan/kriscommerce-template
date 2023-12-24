@@ -1,11 +1,12 @@
 import React from 'react'
+import { Card } from '../elements/Card'
 
 const Category = () => {
     return (
         <div className="container mx-auto">
             <div className="flex flex-wrap pt-10 justify-center items-center">
                 <div className="gap-8 flex">
-                    <div className="w-96 h-36 rounded-2xl border border-neutral-400 justify-center items-center gap-11 flex m-auto relative">
+                    <Card className='w-96 h-36 justify-center items-center gap-11 relative cursor-pointer'>
                         <div className="w-9 h-9 bg-gray-200 rounded-full flex cursor-pointer absolute -left-5 hover:bg-amber-400">
                             <div className=" m-auto">
                                 <div className="w-6 h-6">
@@ -21,15 +22,15 @@ const Category = () => {
                             <div className="text-cyan-800 text-2xl font-semibold font-['Poppins']">Speaker</div>
                             <div className="6Items text-cyan-800 text-lg font-medium font-['Poppins']">(6 items)</div>
                         </div>
-                    </div>
-                    <div className="w-96 h-36 rounded-2xl border border-neutral-400 justify-center items-center gap-11 flex m-auto">
+                    </Card>
+                    <Card className='w-96 h-36 justify-center items-center gap-11 cursor-pointer'>
                         <img className="w-32 h-28 rounded-lg" src="https://source.unsplash.com/122x118?laptop" />
                         <div className="flex-col justify-center items-start gap-2.5 inline-flex">
                             <div className="text-cyan-800 text-xl font-semibold font-['Poppins']">Desktop & laptop</div>
                             <div className="text-cyan-800 text-lg font-medium font-['Poppins']">(6 items)</div>
                         </div>
-                    </div>
-                    <div className="w-96 h-36 rounded-2xl border border-neutral-400 justify-center items-center gap-11 flex m-auto relative">
+                    </Card>
+                    <Card className='w-96 h-36 justify-center items-center gap-11 relative cursor-pointer'>
                         <img className="w-28 h-28 rounded-lg" src="https://source.unsplash.com/122x118?dslr+camera" />
                         <div className="flex-col justify-center items-start gap-2.5 inline-flex">
                             <div className="text-cyan-800 text-2xl font-semibold font-['Poppins']">DSLR camera</div>
@@ -45,7 +46,7 @@ const Category = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Card>
                 </div>
             </div>
         </div>

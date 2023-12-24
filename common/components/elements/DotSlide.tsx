@@ -1,11 +1,19 @@
 import React from 'react'
 
-const DotSlide = () => {
+interface DotProps {
+    className?: string
+    count: number
+}
+
+const DotSlide = (props: DotProps) => {
+    const dots = Array.from({ length: props.count }, (_, index) => index);
+
     return (
-        <div className="w-20 h-5 justify-center items-center gap-2.5 inline-flex">
-            <div className="w-5 h-5 bg-amber-500 rounded-full" />
-            <div className="w-5 h-5 rounded-full border border-zinc-400" />
-            <div className="w-5 h-5 rounded-full border border-zinc-400" />
+        <div className={`w-40 h-5 justify-center items-center gap-2.5 flex ${props.className}`}>
+            <div className="w-5 h-5 bg-amber-500 cursor-pointer rounded-full" />
+            {dots.map((dotIndex) => (
+                <div key={dotIndex} className="w-5 h-5 hover:bg-amber-500 cursor-pointer rounded-full border border-zinc-400" />
+            ))}
         </div>
     )
 }
