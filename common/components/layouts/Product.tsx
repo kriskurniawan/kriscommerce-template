@@ -1,6 +1,7 @@
 import React from 'react'
 import Star from '../elements/Star'
 import DotSlide from '../elements/DotSlide'
+import Button from '../elements/Button'
 
 const Product = () => {
     return (
@@ -16,7 +17,7 @@ const Product = () => {
                         </div>
                     </div>
                     <div className="flex justify-between gap-5 mb-4">
-                        <div className="w-56 h-14 pl-6 bg-blue-300 rounded-2xl justify-between flex items-center">
+                        {/* <div className="w-56 h-14 pl-6 bg-blue-300 rounded-2xl justify-between flex items-center">
                             <div className="text-neutral-800 text-base font-semibold font-['Poppins']">Add to cart</div>
                             <div className="w-8 h-8 bg-amber-500 rounded-full flex mr-3">
                                 <div className="w-4 h-4 m-auto">
@@ -28,7 +29,8 @@ const Product = () => {
                                     </svg>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+                        <Button className="w-56 h-14 bg-amber-500 text-white font-semibold font-['Poppins']">Add to cart</Button>
                         <div className="w-16 h-14 pl-6 bg-blue-300 rounded-2xl flex items-center">
                             <div className="w-6 h-6 flex">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

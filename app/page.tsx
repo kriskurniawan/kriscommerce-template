@@ -18,7 +18,6 @@ export default function Home() {
     <main className="bg-white">
       <HeaderTop />
       <HeaderBottom />
-      <Navigation />
       <Slider />
       <Category />
       <PopularProduct />

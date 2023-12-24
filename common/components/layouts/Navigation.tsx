@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navigation = () => {
     return (
-        <div className="w-full h-16 bg-zinc-100 flex flex-wrap">
+        <div className="w-full h-16 bg-zinc-100 flex flex-wrap sticky top-20 z-50">
             <div className="ml-16 w-52 h-16 bg-amber-500 flex items-center justify-center hover:bg-amber-600 cursor-pointer">
                 <div className="text-white font-semibold text-base font-['Poppins'] mr-3">Browse categories</div>
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">

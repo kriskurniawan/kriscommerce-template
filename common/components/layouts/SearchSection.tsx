@@ -9,12 +9,12 @@ const handleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
 
 const SearchSection = () => {
     return (
-        <div className="w-96 h-14 justify-center items-center gap-20 inline-flex">
+        <div className="w-96 justify-center items-center gap-20 inline-flex">
             <div className="relative">
                 <input
                     type="text"
                     placeholder="Search any things"
-                    className="border border-gray-300 w-96 h-14 pl-6 pr-24 bg-white rounded-2xl focus:outline-none focus:border-amber-600"
+                    className="border border-gray-300 w-96 h-12 pl-6 pr-24 bg-white rounded-2xl focus:outline-none focus:border-amber-600"
                 />
                 <Button
                     onClick={handleClick}
