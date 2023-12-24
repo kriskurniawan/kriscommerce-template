@@ -45,9 +45,7 @@ const Testimoni = () => {
                     </div>
                 </div>
             </div>
-            <div className="p-5 justify-center items-center flex">
-                <DotSlide />
-            </div>
+            <DotSlide className='p-5 m-auto' count={5} />
         </div>
     )
 }
