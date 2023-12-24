@@ -20,13 +20,13 @@ const Slider = () => {
                 <Button
                     onClick={handleClick}
                     type="submit"
-                    className="w-36 h-16 bg-amber-500 justify-center text-white text-base font-semibold hover:bg-amber-600">
+                    className="w-32 h-14 bg-amber-500 justify-center text-white text-base font-semibold hover:bg-amber-600">
                     Shop Now
                 </Button>
                 <Button
                     onClick={handleView}
                     type="submit"
-                    className="w-36 h-16 rounded-2xl border border-cyan-800 text-cyan-800 text-base font-semibold hover:bg-slate-200">
+                    className="w-32 h-14 rounded-2xl border border-cyan-800 text-cyan-800 text-base font-semibold hover:bg-slate-200">
                     View more
                 </Button>
             </div>

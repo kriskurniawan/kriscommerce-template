@@ -8,7 +8,7 @@ interface CardProps {
 
 export const Card = ({ children, className = '', ...others }: CardProps) => {
     return (
-        <div className={`${className} rounded-2xl border border-neutral-400 flex m-auto transition ease-in-out hover:-translate-y-1 hover:scale-110`}>
+        <div className={`${className} rounded-2xl border border-neutral-400`}>
             {children}
         </div>
     )

@@ -15,7 +15,7 @@ const TopSeller = () => {
                         <div className="flex-col justify-center items-start gap-4 flex">
                             <div className="text-sky-900 text-xl font-semibold font-['Poppins']">JBL bar 2.1 deep bass</div>
                             <div className="text-neutral-600 text-lg font-semibold font-['Poppins']">$11,70</div>
-                            <Star />
+                            <Star count={5}/>
                         </div>
                         <div className="justify-center items-center gap-2.5 inline-flex">
                             <div className="w-20 h-20 bg-sky-100 rounded-full flex-col justify-center items-center gap-2.5 inline-flex">
@@ -63,7 +63,7 @@ const TopSeller = () => {
                             <div className="flex-col justify-center items-start gap-4 inline-flex">
                                 <div className="text-sky-900 text-lg font-medium font-['Poppins']">Play game</div>
                                 <div className="text-neutral-600 text-lg font-semibold font-['Poppins']">$11,70</div>
-                                <Star />
+                                <Star count={5}/>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const TopSeller = () => {
                             <div className="flex-col justify-center items-start gap-4 inline-flex">
                                 <div className="text-sky-900 text-lg font-medium font-['Poppins']">Play game</div>
                                 <div className="text-neutral-600 text-lg font-semibold font-['Poppins']">$11,70</div>
-                                <Star />
+                                <Star count={5}/>
                             </div>
                         </div>
                     </div>
