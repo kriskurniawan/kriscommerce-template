@@ -13,7 +13,7 @@ export const PRODUCTS = [
         id: 2,
         name: "Wireless headphones",
         price: 39,
-        image: "https://source.unsplash.com/188x173?headphones",
+        image: "https://source.unsplash.com/188x173?wireless-headphones",
         category: "Accessories",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quibusdam.",
         rating: 3.5,
