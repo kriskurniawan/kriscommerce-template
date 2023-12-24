@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../elements/Button'
 
 const BannerPromotion = () => {
     return (
@@ -8,13 +9,16 @@ const BannerPromotion = () => {
                 <div className="w-32 h-11 bg-amber-500 rounded-2xl justify-center items-center gap-2.5 flex absolute right-72 top-20">
                     <div className="text-white text-sm font-medium font-['Poppins']">New laptop </div>
                 </div>
+                <Button className="w-32 h-11 bg-amber-500 justify-center items-center flex absolute right-72 top-20 text-white text-sm font-medium font-['Poppins'] hover:bg-amber-600">
+                    New laptop
+                </Button>
                 <div className="w-96 h-24 flex-col justify-center items-center gap-3 flex absolute right-40 top-40">
                     <div className="text-cyan-600 text-4xl font-bold font-['Poppins']">Sale up to 50% off</div>
                     <div className="text-white text-lg font-medium font-['Poppins']">12 inch hd display</div>
                 </div>
-                <div className="w-32 h-11 bg-amber-500 rounded-2xl justify-center items-center gap-2.5 flex absolute right-72 bottom-20">
-                    <div className="text-white text-sm font-medium font-['Poppins']">Shop now </div>
-                </div>
+                <Button className="w-32 h-11 bg-amber-500 justify-center items-center flex absolute right-72 bottom-20 text-white text-sm font-medium font-['Poppins'] hover:bg-amber-600">
+                    Shop now
+                </Button>
             </div>
         </div>
     )

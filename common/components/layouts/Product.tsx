@@ -7,14 +7,21 @@ import { Card } from '../elements/Card'
 import { PRODUCTS } from '../../constant/products'
 import { IProduct } from '@/common/types/products'
 
+const featuredProducts = PRODUCTS.filter(product => product.featured);
+const nonFeaturedProducts = PRODUCTS.filter(product => !product.featured);
+
+const randomNonFeaturedProducts = nonFeaturedProducts
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 7);
+
 const Product = () => {
     return (
         <div className="container mx-auto">
             <div className="w-full flex flex-wrap justify-center mb-5 gap-5">
-                {PRODUCTS.map((product: IProduct) => (
-                    <>
-                        <Card className="w-80 h-80 justify-center gap-9 flex flex-wrap relative">
-                            <img className="w-48 h-44 mt-7 rounded-lg" src="https://source.unsplash.com/188x173?camera" />
+                <>
+                    {featuredProducts.map((product) => (
+                        <Card key={product.id} className="w-80 h-80 justify-center gap-9 flex flex-wrap relative">
+                            <img className="w-48 h-44 mt-7 rounded-lg" src={product.image} />
                             <ButtonLove />
                             <div className="flex justify-between gap-5 mb-4">
                                 <Button className="w-56 h-14 pl-6 justify-between flex items-center bg-blue-300 hover:bg-blue-400 text-slate-800 text-base font-semibold font-['Poppins']">
@@ -36,17 +43,19 @@ const Product = () => {
                                 </Button>
                             </div>
                         </Card>
-                        <Card className="w-80 h-80 justify-center flex flex-wrap relative cursor-pointer hover:bg-slate-100">
-                            <img className="w-48 h-44 mt-7 rounded-lg" src="https://source.unsplash.com/188x173?headphones" />
+                    ))}
+                    {randomNonFeaturedProducts.map((product: IProduct) => (
+                        <Card key={product.id} className="w-80 h-80 justify-center flex flex-wrap relative cursor-pointer hover:bg-slate-100">
+                            <img className="w-48 h-44 mt-7 rounded-lg" src={product.image} />
                             <ButtonLove />
                             <div className="gap-2 flex flex-col absolute bottom-5 left-3">
-                                <div className="text-sky-900 text-lg font-medium font-['Poppins']">Wireless headphones</div>
-                                <div className="text-neutral-600 text-lg font-semibold font-['Poppins']">$11,70</div>
-                                <Star count={5} />
+                                <div className="text-sky-900 text-lg font-medium font-['Poppins']">{product.name}</div>
+                                <div className="text-neutral-600 text-lg font-semibold font-['Poppins']">${product.price}</div>
+                                <Star count={product.rating} />
                             </div>
                         </Card>
-                    </>
-                ))}
+                    ))}
+                </>
             </div>
             <DotSlide className="mx-auto mt-10" count={2} />
         </div>
