@@ -3,7 +3,7 @@ export const PRODUCTS = [
         id: 1,
         name: "Canon camera",
         price: 89,
-        image: "https://source.unsplash.com/188x173?camera",
+        image: "/assets/img/camera-1.png",
         category: "Cameras",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quibusdam.",
         rating: 4.5,
