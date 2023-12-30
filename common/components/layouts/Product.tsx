@@ -24,7 +24,7 @@ const Product = () => {
                             <img className="w-48 h-44 mt-7 rounded-lg" src={product.image} />
                             <ButtonLove />
                             <div className="flex justify-between gap-5 mb-4">
-                                <Button className="w-56 h-14 pl-6 justify-between flex items-center bg-blue-300 hover:bg-blue-400 text-slate-800 text-base font-semibold font-['Poppins']">
+                                <Button className="w-56 h-14 pl-6 justify-between flex items-center bg-blue-300 hover:bg-blue-400 text-slate-800 text-base font-semibold">
                                     Add to cart
                                     <div className="w-8 h-8 bg-amber-500 rounded-full justify-center items-center flex mr-4">
                                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,8 +49,8 @@ const Product = () => {
                             <img className="w-48 h-44 mt-7 rounded-lg" src={product.image} />
                             <ButtonLove />
                             <div className="gap-2 flex flex-col absolute bottom-5 left-3">
-                                <div className="text-sky-900 text-lg font-medium font-['Poppins']">{product.name}</div>
-                                <div className="text-neutral-600 text-lg font-semibold font-['Poppins']">${product.price}</div>
+                                <div className="text-sky-900 text-lg font-medium">{product.name}</div>
+                                <div className="text-neutral-600 text-lg font-semibold">${product.price}</div>
                                 <Star count={product.rating} />
                             </div>
                         </Card>

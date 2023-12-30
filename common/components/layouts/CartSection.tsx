@@ -10,7 +10,7 @@ const CartSection = () => {
                         <path d="M21.3794 22C21.3794 18.13 17.5294 15 12.7894 15C8.04943 15 4.19943 18.13 4.19943 22" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </div>
-                <div className="text-white text-sm font-normal font-['Poppins']">Sign in</div>
+                <div className="text-white text-sm font-normal">Sign in</div>
             </div>
             <div className="w-32 h-10 justify-center items-center gap-3 flex hover:bg-amber-600 cursor-pointer rounded-lg">
                 <div className="justify-center items-center flex">
@@ -18,10 +18,10 @@ const CartSection = () => {
                         <path d="M13.4094 20.81C13.0694 20.93 12.5094 20.93 12.1694 20.81C9.26943 19.82 2.78943 15.69 2.78943 8.69001C2.78943 5.60001 5.27943 3.10001 8.34943 3.10001C10.1694 3.10001 11.7794 3.98001 12.7894 5.34001C13.7994 3.98001 15.4194 3.10001 17.2294 3.10001C20.2994 3.10001 22.7894 5.60001 22.7894 8.69001C22.7894 15.69 16.3094 19.82 13.4094 20.81Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <div className="w-3.5 h-3.5 bg-amber-500 rounded-full flex-col justify-center items-center gap-2 inline-flex">
-                        <div className="text-white text-xs font-normal font-['Poppins']">0</div>
+                        <div className="text-white text-xs font-normal">0</div>
                     </div>
                 </div>
-                <div className="text-white text-sm font-normal font-['Poppins']">Wishlist</div>
+                <div className="text-white text-sm font-normal">Wishlist</div>
             </div>
             <div className="w-32 h-10 justify-center items-center gap-3 flex hover:bg-amber-600 cursor-pointer rounded-lg">
                 <div className="justify-center items-center flex">
@@ -32,10 +32,10 @@ const CartSection = () => {
                         <path d="M8.99995 8H21" stroke="white" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <div className="w-3.5 h-3.5 bg-amber-500 rounded-full flex-col justify-center items-center gap-2 inline-flex">
-                        <div className="text-white text-xs font-normal font-['Poppins']">0</div>
+                        <div className="text-white text-xs font-normal">0</div>
                     </div>
                 </div>
-                <div className="text-white text-sm font-normal font-['Poppins']">Cart</div>
+                <div className="text-white text-sm font-normal">Cart</div>
             </div>
         </div>
     )

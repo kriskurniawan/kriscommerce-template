@@ -8,7 +8,7 @@ const FooterMenu = () => {
                     <div className="flex-col justify-center items-start gap-9 inline-flex">
                         <div className="flex-col justify-center items-start gap-10 flex">
                             <img className="w-36 h-10" src="https://source.unsplash.com/140x39?company/logo" />
-                            <div className="text-cyan-800 text-base font-normal font-['Poppins']">64 st james boulevard<br />hoswick , ze2 7zj</div>
+                            <div className="text-cyan-800 text-base font-normal">64 st james boulevard<br />hoswick , ze2 7zj</div>
                         </div>
                         <div className="flex-col justify-center items-start gap-6 flex">
                             <div className="w-64 h-px -rotate-180 border border-neutral-400"></div>
@@ -41,77 +41,77 @@ const FooterMenu = () => {
                     </div>
                     <div className="justify-start items-center gap-52 flex">
                         <div className="flex-col justify-center items-start gap-3 inline-flex">
-                            <div className="text-cyan-800 text-xl font-semibold font-['Poppins']">Find product</div>
+                            <div className="text-cyan-800 text-xl font-semibold">Find product</div>
                             <div className="flex-col justify-center items-start gap-3.5 flex">
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Brownze arnold</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Brownze arnold</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Chronograph blue</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Chronograph blue</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Smart phones</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Smart phones</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Automatic watch</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Automatic watch</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Hair straighteners</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Hair straighteners</div>
                                 </div>
                             </div>
                         </div>
                         <div className="flex-col justify-center items-start gap-3 inline-flex">
-                            <div className="text-cyan-800 text-xl font-semibold font-['Poppins']">Get help</div>
+                            <div className="text-cyan-800 text-xl font-semibold">Get help</div>
                             <div className="flex-col justify-center items-start gap-3.5 flex">
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">About us</div>
+                                    <div className="text-cyan-800 text-xl font-normal">About us</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Contact us</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Contact us</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Return policy</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Return policy</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Privacy policy</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Privacy policy</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Payment policy</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Payment policy</div>
                                 </div>
                             </div>
                         </div>
                         <div className="flex-col justify-center items-start gap-3 inline-flex">
-                            <div className="text-cyan-800 text-xl font-semibold font-['Poppins']">About us</div>
+                            <div className="text-cyan-800 text-xl font-semibold">About us</div>
                             <div className="flex-col justify-center items-start gap-3.5 flex">
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">News</div>
+                                    <div className="text-cyan-800 text-xl font-normal">News</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Service</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Service</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Our policy</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Our policy</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Custmer care</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Custmer care</div>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <div className="text-cyan-800 text-xl font-normal font-['Poppins']">Faq’s</div>
+                                    <div className="text-cyan-800 text-xl font-normal">Faq’s</div>
                                 </div>
                             </div>
                         </div>

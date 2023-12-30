@@ -4,7 +4,7 @@ const HeaderTop = () => {
     return (
         <div className="justify-between flex h-12 m-auto mr-16 ml-16">
             <div className='flex justify-center items-center'>
-                <div className="text-slate-600 text-sm font-['Poppins'] hover:text-blue-600 cursor-pointer">Need help? Call us: (+98) 0234 456 789</div>
+                <div className="text-slate-600 text-sm hover:text-blue-600 cursor-pointer">Need help? Call us: (+98) 0234 456 789</div>
             </div>
             <div className="justify-center items-center gap-5 flex">
                 <div className="w-32 h-10 rounded-lg justify-center items-center gap-3 flex hover:bg-slate-300 cursor-pointer">
@@ -14,7 +14,7 @@ const HeaderTop = () => {
                             <path d="M3.62 8.49C5.59 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.39 20.54C5.63 17.88 2.47 13.57 3.62 8.49Z" strokeWidth="1.5" />
                         </svg>
                     </div>
-                    <div className="text-slate-600 text-sm font-normal font-['Poppins']">Our store</div>
+                    <div className="text-slate-600 text-sm font-normal">Our store</div>
                 </div>
                 <div className="justify-center items-center gap-3 flex">
                     <div className="w-44 h-10 rounded-lg justify-center items-center gap-3 flex hover:bg-slate-300 cursor-pointer">
@@ -27,7 +27,7 @@ const HeaderTop = () => {
                                 <path d="M22 12V14H19C18.45 14 18 13.55 18 13V10C18 9.45 18.45 9 19 9H20.29L22 12Z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                         </div>
-                        <div className="text-slate-600 text-sm font-normal font-['Poppins']">Track your order</div>
+                        <div className="text-slate-600 text-sm font-normal">Track your order</div>
                     </div>
                 </div>
             </div>

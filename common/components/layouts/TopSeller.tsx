@@ -1,11 +1,12 @@
 import React from 'react'
 import Star from '../elements/Star'
+import { Card } from '../elements/Card'
 
 const TopSeller = () => {
     return (
         <div className="container mx-auto">
             <div className="flex justify-center items-center gap-5 mb-5">
-                <div className="w-[830px] h-[500px] rounded-2xl border border-zinc-400 justify-center items-center gap-10 flex relative">
+                <Card className="w-[830px] h-[500px] justify-center items-center gap-10 flex relative">
                     <img className="w-80 h-96 p-3 rounded-2xl" src="https://source.unsplash.com/320x384?speaker" />
                     <div className="justify-center items-center gap-2.5 flex absolute bottom-10">
                         <div className="w-5 h-5 bg-amber-500 rounded-full" />
@@ -55,7 +56,7 @@ const TopSeller = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Card>
                 <div className="flex flex-col">
                     <div className="w-[500px] h-60 rounded-2xl border border-zinc-400 flex-col justify-center items-center gap-4 inline-flex mb-5">
                         <div className="justify-start items-center gap-12 inline-flex">

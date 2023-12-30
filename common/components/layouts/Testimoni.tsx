@@ -12,10 +12,10 @@ const Testimoni = () => {
                                 <img className="w-20 h-20 left-[6.54px] top-[6.54px] absolute rounded-full" src="https://source.unsplash.com/87x87?profile" />
                             </div>
                         </div>
-                        <div className="w-44 text-sky-900 text-base font-medium font-['Poppins']">Savannah Nguyen</div>
+                        <div className="w-44 text-sky-900 text-base font-medium">Savannah Nguyen</div>
                     </div>
                     <div className="w-[400px] h-20 bg-sky-100 rounded-2xl justify-center items-center flex m-auto">
-                        <div className="w-full p-4 text-sky-900 text-sm font-normal font-['Poppins']">Lorem ipsum dolor sit amet consectetur. Nec sit enim tellus faucibus bibendum ullamcorper. Phasellus tristique aenean at lorem sed scelerisque.</div>
+                        <div className="w-full p-4 text-sky-900 text-sm font-normal">Lorem ipsum dolor sit amet consectetur. Nec sit enim tellus faucibus bibendum ullamcorper. Phasellus tristique aenean at lorem sed scelerisque.</div>
                     </div>
                 </div>
                 <div className="w-[440px] h-60 rounded-2xl border border-zinc-400 flex-col justify-center items-start inline-flex">
@@ -25,10 +25,10 @@ const Testimoni = () => {
                                 <img className="w-20 h-20 left-[6.54px] top-[6.54px] absolute rounded-full" src="https://source.unsplash.com/87x87?avatar" />
                             </div>
                         </div>
-                        <div className="w-44 text-sky-900 text-base font-medium font-['Poppins']">Esther Howard</div>
+                        <div className="w-44 text-sky-900 text-base font-medium">Esther Howard</div>
                     </div>
                     <div className="w-[400px] h-20 bg-sky-100 rounded-2xl justify-center items-center flex m-auto">
-                        <div className="w-full p-4 text-sky-900 text-sm font-normal font-['Poppins']">Lorem ipsum dolor sit amet consectetur. Nec sit enim tellus faucibus bibendum ullamcorper. Phasellus tristique aenean at lorem sed scelerisque.</div>
+                        <div className="w-full p-4 text-sky-900 text-sm font-normal">Lorem ipsum dolor sit amet consectetur. Nec sit enim tellus faucibus bibendum ullamcorper. Phasellus tristique aenean at lorem sed scelerisque.</div>
                     </div>
                 </div>
                 <div className="w-[440px] h-60 rounded-2xl border border-zinc-400 flex-col justify-center items-start inline-flex">
@@ -38,10 +38,10 @@ const Testimoni = () => {
                                 <img className="w-20 h-20 left-[6.54px] top-[6.54px] absolute rounded-full" src="https://source.unsplash.com/87x87?people" />
                             </div>
                         </div>
-                        <div className="w-44 text-sky-900 text-base font-medium font-['Poppins']">Esther Howard</div>
+                        <div className="w-44 text-sky-900 text-base font-medium">Esther Howard</div>
                     </div>
                     <div className="w-[400px] h-20 bg-sky-100 rounded-2xl justify-center items-center flex m-auto">
-                        <div className="w-full p-4 text-sky-900 text-sm font-normal font-['Poppins']">Lorem ipsum dolor sit amet consectetur. Nec sit enim tellus faucibus bibendum ullamcorper. Phasellus tristique aenean at lorem sed scelerisque.</div>
+                        <div className="w-full p-4 text-sky-900 text-sm font-normal">Lorem ipsum dolor sit amet consectetur. Nec sit enim tellus faucibus bibendum ullamcorper. Phasellus tristique aenean at lorem sed scelerisque.</div>
                     </div>
                 </div>
             </div>

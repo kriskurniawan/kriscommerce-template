@@ -10,12 +10,13 @@ interface ButtonProps {
     icon?: React.ReactNode
     variant?: 'primary' | 'secondary'
     size?: 'sm' | 'md'
+    rounded?: 'full' | 'sm' | 'md' | 'lg' | 'xl'
 }
 
 const Button = (props: ButtonProps) => {
 
     return (
-        <button className={`${props.className} rounded-2xl font-['Poppins']`}
+        <button className={`${props.className} rounded-2xl`}
             onClick={props.onClick}
             type={props.type}
             disabled={props.disabled}>
