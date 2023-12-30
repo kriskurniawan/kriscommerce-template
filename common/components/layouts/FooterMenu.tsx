@@ -7,7 +7,7 @@ const FooterMenu = () => {
                 <div className="w-[90%] h-60 justify-start items-start gap-20 flex m-auto">
                     <div className="flex-col justify-center items-start gap-9 inline-flex">
                         <div className="flex-col justify-center items-start gap-10 flex">
-                            <img className="w-36 h-10" src="https://source.unsplash.com/140x39?company/logo" />
+                            <img className="w-36 h-10" src="/assets/img/logo-11.png" />
                             <div className="text-cyan-800 text-base font-normal">64 st james boulevard<br />hoswick , ze2 7zj</div>
                         </div>
                         <div className="flex-col justify-center items-start gap-6 flex">

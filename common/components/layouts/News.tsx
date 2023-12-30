@@ -10,7 +10,7 @@ const News = () => {
             </div>
             <div className="flex m-auto gap-5 justify-center mb-5">
                 <div className="w-[680px] h-96 rounded-2xl border border-stone-300 justify-center items-center gap-8 flex">
-                    <img className="w-80 h-72 rounded-2xl" src="https://source.unsplash.com/320x288?article" />
+                    <img className="rounded-2xl" src="/assets/img/blog-1.png" />
                     <div className="flex-col justify-center items-start gap-2 inline-flex">
                         <div className="w-36 h-10 rounded-2xl border border-neutral-300 justify-center items-center gap-2.5 inline-flex">
                             <div className="text-cyan-800 text-xl font-medium">22,oct,2021</div>
@@ -25,7 +25,7 @@ const News = () => {
                     </div>
                 </div>
                 <div className="w-[680px] h-96 rounded-2xl border border-stone-300 justify-center items-center gap-8 flex">
-                    <img className="w-80 h-72 rounded-2xl" src="https://source.unsplash.com/320x288?blog" />
+                    <img className="rounded-2xl" src="/assets/img/blog-2.png" />
                     <div className="flex-col justify-center items-start gap-2 inline-flex">
                         <div className="w-36 h-10 rounded-2xl border border-neutral-300 justify-center items-center gap-2.5 inline-flex">
                             <div className="text-cyan-800 text-xl font-medium">22,oct,2021</div>

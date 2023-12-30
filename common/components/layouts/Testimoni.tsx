@@ -9,7 +9,7 @@ const Testimoni = () => {
                     <div className="justify-center items-center gap-9 inline-flex pl-4 mt-4">
                         <div className="w-24 h-24 relative">
                             <div className="w-24 h-24 left-0 top-0 absolute rounded-full border-2 border-amber-500">
-                                <img className="w-20 h-20 left-[6.54px] top-[6.54px] absolute rounded-full" src="https://source.unsplash.com/87x87?profile" />
+                                <img className="w-20 h-20 left-[6.54px] top-[6.54px] absolute rounded-full" src="/assets/img/ellipse1.png" />
                             </div>
                         </div>
                         <div className="w-44 text-sky-900 text-base font-medium">Savannah Nguyen</div>
@@ -22,7 +22,7 @@ const Testimoni = () => {
                     <div className="justify-center items-center gap-9 inline-flex pl-4 mt-4">
                         <div className="w-24 h-24 relative">
                             <div className="w-24 h-24 left-0 top-0 absolute rounded-full border-2 border-amber-500">
-                                <img className="w-20 h-20 left-[6.54px] top-[6.54px] absolute rounded-full" src="https://source.unsplash.com/87x87?avatar" />
+                                <img className="w-20 h-20 left-[6.54px] top-[6.54px] absolute rounded-full" src="/assets/img/ellipse2.png" />
                             </div>
                         </div>
                         <div className="w-44 text-sky-900 text-base font-medium">Esther Howard</div>
@@ -35,7 +35,7 @@ const Testimoni = () => {
                     <div className="justify-center items-center gap-9 inline-flex pl-4 mt-4">
                         <div className="w-24 h-24 relative">
                             <div className="w-24 h-24 left-0 top-0 absolute rounded-full border-2 border-amber-500">
-                                <img className="w-20 h-20 left-[6.54px] top-[6.54px] absolute rounded-full" src="https://source.unsplash.com/87x87?people" />
+                                <img className="w-20 h-20 left-[6.54px] top-[6.54px] absolute rounded-full" src="/assets/img/ellipse3.png" />
                             </div>
                         </div>
                         <div className="w-44 text-sky-900 text-base font-medium">Esther Howard</div>
