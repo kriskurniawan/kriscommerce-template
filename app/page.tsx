@@ -9,7 +9,7 @@ import TopSeller from '@/common/components/layouts/TopSeller'
 import Features from '@/common/components/layouts/Features'
 import Testimoni from '@/common/components/layouts/Testimoni'
 import Partner from '@/common/components/layouts/Partner'
-import News from '@/common/components/layouts/News'
+import News from '@/common/components/layouts/Blogs'
 import Footer from '@/common/components/layouts/Footer'
 
 export default function Home() {
