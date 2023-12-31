@@ -1,7 +1,6 @@
 import React from 'react'
 import SearchSection from './SearchSection'
 import CartSection from './CartSection'
-import Image from 'next/image'
 import Link from 'next/link'
 import Navigation from './Navigation'
 
