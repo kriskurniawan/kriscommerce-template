@@ -1,7 +1,7 @@
 import HeaderBottom from '@/common/components/layouts/HeaderBottom'
 import HeaderTop from '@/common/components/layouts/HeaderTop'
 import Footer from '@/common/components/layouts/Footer'
-import { Broadcum } from '@/common/components/layouts/Broadcum'
+import { Broadcum } from '@/common/components/layouts/Broadcrum'
 import Categories from '@/modules/categories'
 
 export default function Home() {
