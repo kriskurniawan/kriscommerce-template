@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeaderTop = () => {
     return (
-        <div className="justify-between flex h-12 m-auto mr-16 ml-16">
+        <div className="justify-between h-12 m-auto mr-16 ml-16 hidden lg:flex md:flex">
             <div className='flex justify-center items-center'>
                 <div className="text-slate-600 text-sm hover:text-blue-600 cursor-pointer">Need help? Call us: (+98) 0234 456 789</div>
             </div>

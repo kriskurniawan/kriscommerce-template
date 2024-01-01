@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navigation = () => {
     return (
-        <div className="w-full h-16 bg-zinc-100 sticky top-16 z-50">
+        <div className="w-full h-16 bg-zinc-100 sticky top-16 z-50 hidden lg:block">
             <div className="flex justify-between">
                 <div className='flex flex-wrap'>
                     <Link href="/products" className="ml-16 w-52 h-16 bg-amber-500 flex items-center justify-center hover:bg-amber-600">

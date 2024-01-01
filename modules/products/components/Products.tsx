@@ -13,11 +13,11 @@ import { PRODUCTS } from '@/common/constant/products'
 import BannerPromotion from '@/modules/homepage/components/BannerPromotion'
 import Link from 'next/link'
 
-const Categories = () => {
+const Products = () => {
     return (
         <>
-            <div className="mx-auto min-h-full container mt-28 flex">
-                <div className="w-[65%] h-full">
+            <div className="mx-auto min-h-full container mt-20 p-16 flex md:p-4">
+                <div className="w-[300px] h-full hidden lg:block">
                     <SideCategories />
                     <Separator />
                     <SideAvaliability />
@@ -31,7 +31,7 @@ const Categories = () => {
                     <SideSize />
                     <Separator />
                 </div>
-                <div className="max-w-full ml-7 flex flex-wrap gap-5">
+                <div className="max-w-full ml-8 flex flex-wrap gap-5">
                     {PRODUCTS.map((product, index) => (
                         <Link href={`/products/${product.id}`} key={index}>
                             <Card key={index} className="w-80 h-80 justify-center flex relative cursor-pointer hover:bg-slate-100">
@@ -52,4 +52,4 @@ const Categories = () => {
     )
 }
 
-export default Categories
+export default Products
