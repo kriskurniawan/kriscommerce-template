@@ -1,5 +1,5 @@
+import Button from '@/common/components/elements/Button'
 import React from 'react'
-import Button from '../elements/Button'
 
 const BannerPromotion = () => {
     return (

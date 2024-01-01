@@ -19,7 +19,7 @@ const SideCategories = () => {
     }
 
     return (
-        <div className='ml-14 w-80 h-96'>
+        <div className='w-80 h-64'>
             <div className="flex justify-between mb-3">
                 <div className="text-sky-900 font-semibold">Categories</div>
                 <a href="#" className="text-sky-900 text-sm">Reset</a>

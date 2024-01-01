@@ -1,5 +1,5 @@
+import { Card } from '@/common/components/elements/Card'
 import React from 'react'
-import { Card } from '../elements/Card'
 
 const Category = () => {
     return (

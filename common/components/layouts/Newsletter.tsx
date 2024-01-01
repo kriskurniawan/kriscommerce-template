@@ -1,5 +1,5 @@
+import InputField from '@/common/components/elements/InputField'
 import React from 'react'
-import InputField from '../elements/InputField'
 
 const Newsletter = () => {
     return (

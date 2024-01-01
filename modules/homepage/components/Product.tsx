@@ -1,11 +1,11 @@
+import Button from '@/common/components/elements/Button';
+import ButtonLove from '@/common/components/elements/ButtonLove';
+import { Card } from '@/common/components/elements/Card';
+import DotSlide from '@/common/components/elements/DotSlide';
+import Star from '@/common/components/elements/Star';
+import { PRODUCTS } from '@/common/constant/products';
+import { IProduct } from '@/common/types/products';
 import React from 'react'
-import Star from '../elements/Star'
-import DotSlide from '../elements/DotSlide'
-import Button from '../elements/Button'
-import ButtonLove from '../elements/ButtonLove'
-import { Card } from '../elements/Card'
-import { PRODUCTS } from '../../constant/products'
-import { IProduct } from '@/common/types/products'
 
 const featuredProducts = PRODUCTS.filter(product => product.featured);
 const nonFeaturedProducts = PRODUCTS.filter(product => !product.featured);

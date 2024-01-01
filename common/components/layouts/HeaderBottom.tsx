@@ -1,8 +1,8 @@
 import React from 'react'
 import SearchSection from './SearchSection'
-import CartSection from './CartSection'
 import Link from 'next/link'
-import Navigation from './Navigation'
+import CartSection from '@/modules/homepage/components/CartSection'
+import Navigation from '@/modules/homepage/components/Navigation'
 
 const HeaderBottom = () => {
     return (
