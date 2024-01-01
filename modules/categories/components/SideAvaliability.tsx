@@ -2,7 +2,7 @@ import React from 'react'
 
 const SideAvaliability = () => {
     return (
-        <div className='w-80 h-36'>
+        <>
             <div className="flex justify-between mb-3">
                 <div className="text-sky-900 font-semibold">Avaliability</div>
             </div>
@@ -12,7 +12,7 @@ const SideAvaliability = () => {
             </div>
             <div className="flex justify-between items-center mb-3">
                 <label className="flex items-center space-x-2">
-                    <input id='ins' type="checkbox" className="h-6 w-6 rounded-md bg-slate-400 checked:bg-slate-700 focus:ring-0"
+                    <input id='ins' type="checkbox" className="h-6 w-6 rounded-md bg-slate-300 checked:bg-slate-700 focus:ring-0"
                     // checked={}
                     // onChange={} 
                     />
@@ -23,7 +23,7 @@ const SideAvaliability = () => {
             <div className="flex justify-between items-center mb-3">
                 <label className="flex items-center space-x-2">
                     <input id='oos' type="checkbox" className="h-6 w-6 rounded-md bg-slate-100"
-                    disabled
+                        disabled
                     // checked={}
                     // onChange={} 
                     />
@@ -31,7 +31,7 @@ const SideAvaliability = () => {
                 </label>
                 <div className="text-sky-900">0</div>
             </div>
-        </div>
+        </>
     )
 }
 

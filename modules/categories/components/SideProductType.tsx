@@ -2,7 +2,7 @@ import React from 'react'
 
 const SideProductType = () => {
     return (
-        <div className='w-80 h-60'>
+        <>
             <div className="flex justify-between mb-3">
                 <div className="text-sky-900 font-semibold">Product type</div>
             </div>
@@ -12,7 +12,7 @@ const SideProductType = () => {
             </div>
             <div className="flex justify-between items-center mb-3">
                 <label className="flex items-center space-x-2">
-                    <input id='smartWatch' type="checkbox" className="h-6 w-6 rounded-md bg-slate-400 checked:bg-slate-700 focus:ring-0"
+                    <input id='smartWatch' type="checkbox" className="h-6 w-6 rounded-md bg-slate-300 checked:bg-slate-700 focus:ring-0"
                     // checked={}
                     // onChange={} 
                     />
@@ -20,7 +20,7 @@ const SideProductType = () => {
                 </label>
                 <div className="text-sky-900">5</div>
             </div>
-        </div>
+        </>
     )
 }
 
