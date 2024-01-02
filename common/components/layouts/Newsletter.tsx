@@ -4,14 +4,14 @@ import React from 'react'
 const Newsletter = () => {
     return (
         <div className="container mx-auto">
-            <div className="flex p-10">
-                <div className="w-[93%] h-36 bg-white rounded-2xl justify-center items-center gap-36 flex m-auto">
-                    <div className="text-cyan-800 text-3xl font-bold">Subscribe newsletter</div>
-                    <div className="justify-center items-center gap-20 flex">
+            <div className="flex pt-10">
+                <div className="w-[90%] h-36 bg-white rounded-2xl justify-center items-center gap-5 lg:gap-32 flex m-auto">
+                    <div className="text-cyan-800 text-2xl font-bold ml-3">Subscribe newsletter</div>
+                    <div className="justify-center items-center gap-20 flex mr-3">
                         <div className="relative">
                             <InputField
                                 type='text'
-                                className="w-96 h-16 pl-6 pr-16 bg-amber-500 rounded-2xl justify-between p-5 flex m-auto text-white placeholder:text-white focus:outline-none focus:border-white"
+                                className="w-96 h-14 pl-6 pr-16 bg-amber-500 rounded-2xl justify-between p-5 flex m-auto text-white placeholder:text-white focus:outline-none focus:border-white"
                                 placeholder='Email address'
                             />
                             <svg
@@ -38,7 +38,7 @@ const Newsletter = () => {
                                 />
                             </svg>
                         </div>
-                        <div className="justify-center items-center gap-5 flex">
+                        <div className="justify-center items-center gap-5 hidden lg:flex">
                             <div className="w-11 h-11 justify-center items-center flex">
                                 <div className="w-11 h-11 relative">
                                     <svg width="46" height="45" viewBox="0 0 46 45" fill="none" xmlns="http://www.w3.org/2000/svg">

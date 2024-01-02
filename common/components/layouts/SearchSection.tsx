@@ -10,7 +10,7 @@ const handleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
 
 const SearchSection = () => {
     return (
-        <div className="w-96 justify-center items-center gap-20 inline-flex">
+        <div className="w-96 justify-center items-center gap-20 lg:flex md:flex hidden">
             <div className="relative">
                 <InputField
                     type="text"

@@ -3,16 +3,16 @@ import React from 'react'
 const FooterMenu = () => {
     return (
         <div className="container mx-auto">
-            <div className="flex p-10">
-                <div className="w-[90%] h-60 justify-start items-start gap-20 flex m-auto">
-                    <div className="flex-col justify-center items-start gap-9 inline-flex">
-                        <div className="flex-col justify-center items-start gap-10 flex">
+            <div className="flex p-16">
+                <div className="w-full h-full justify-center items-center lg:justify-start lg:items-start gap-10 flex m-auto">
+                    <div className="flex-col justify-center items-center lg:justify-start lg:items-start gap-9 flex">
+                        <div className="flex-col gap-10 flex lg:justify-start lg:items-start">
                             <img className="w-36 h-10" src="/assets/img/logo-11.png" />
                             <div className="text-cyan-800 text-base font-normal">64 st james boulevard<br />hoswick , ze2 7zj</div>
                         </div>
-                        <div className="flex-col justify-center items-start gap-6 flex">
+                        <div className="flex-col gap-6 justify-center items-center flex lg:justify-start lg:items-start">
                             <div className="w-64 h-px -rotate-180 border border-neutral-400"></div>
-                            <div className="justify-center items-center gap-9 inline-flex">
+                            <div className="justify-center items-center gap-9 flex">
                                 <div className="w-6 h-6 justify-center items-center flex">
                                     <a href="#" className="w-6 h-6 relative">
                                         <svg className="hover:stroke-amber-500 stroke-slate-600" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,79 +39,79 @@ const FooterMenu = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="justify-start items-center gap-52 flex">
+                    <div className="w-full justify-center items-center gap-10 lg:gap-32 hidden lg:flex">
                         <div className="flex-col justify-center items-start gap-3 inline-flex">
-                            <div className="text-cyan-800 text-xl font-semibold">Find product</div>
+                            <div className="text-cyan-800 text-lg font-semibold">Find product</div>
                             <div className="flex-col justify-center items-start gap-3.5 flex">
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href="#" className="text-cyan-800 text-xl font-normal">Brownze arnold</a>
+                                    <a href="#" className="text-cyan-800 text-lg font-normal">Brownze arnold</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Chronograph blue</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Chronograph blue</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Smart phones</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Smart phones</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Automatic watch</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Automatic watch</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Hair straighteners</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Hair straighteners</a>
                                 </div>
                             </div>
                         </div>
                         <div className="flex-col justify-center items-start gap-3 inline-flex">
-                            <div className="text-cyan-800 text-xl font-semibold">Get help</div>
+                            <div className="text-cyan-800 text-lg font-semibold">Get help</div>
                             <div className="flex-col justify-center items-start gap-3.5 flex">
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">About us</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">About us</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Contact us</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Contact us</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Return policy</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Return policy</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Privacy policy</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Privacy policy</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Payment policy</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Payment policy</a>
                                 </div>
                             </div>
                         </div>
                         <div className="flex-col justify-center items-start gap-3 inline-flex">
-                            <div className="text-cyan-800 text-xl font-semibold">About us</div>
+                            <div className="text-cyan-800 text-lg font-semibold">About us</div>
                             <div className="flex-col justify-center items-start gap-3.5 flex">
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">News</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">News</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Service</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Service</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Our policy</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Our policy</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Custmer care</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Custmer care</a>
                                 </div>
                                 <div className="justify-center items-center gap-3 inline-flex">
                                     <div className="w-2.5 h-2.5 bg-zinc-300 rounded-full" />
-                                    <a href='#' className="text-cyan-800 text-xl font-normal">Faq’s</a>
+                                    <a href='#' className="text-cyan-800 text-lg font-normal">Faq’s</a>
                                 </div>
                             </div>
                         </div>
