@@ -19,12 +19,12 @@ const Navigation = () => {
                             <path d="M19.92 9.45001L13.4 15.97C12.63 16.74 11.37 16.74 10.6 15.97L4.08002 9.45001" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </Link>
-                    <div className="w-32 h-16 flex items-center justify-center hover:bg-amber-500 cursor-pointer group">
+                    <Link href="/products" className="w-32 h-16 flex items-center justify-center hover:bg-amber-500 cursor-pointer group">
                         <div className="text-slate-500 font-semibold text-base group-hover:text-white">Catalog</div>
                         <svg className='ml-2 group-hover:stroke-white stroke-slate-500' width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.92 9.45001L13.4 15.97C12.63 16.74 11.37 16.74 10.6 15.97L4.08002 9.45001" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
-                    </div>
+                    </Link>
                     <div className="w-32 h-16 flex items-center justify-center hover:bg-amber-500 cursor-pointer group">
                         <div className="text-slate-500 font-semibold text-base group-hover:text-white">Blog</div>
                     </div>
